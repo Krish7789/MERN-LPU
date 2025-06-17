@@ -30,4 +30,7 @@ cse018.bloodGroup = "A+";
 //ADD A KEY-VALUE PAIR
 cse018.college = "LPU";
 
+//DELETE
+delete cse018.address;
+
 console.log("cse018:", cse018);
