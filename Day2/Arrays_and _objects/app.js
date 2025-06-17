@@ -95,15 +95,33 @@
 
 //------------------------------
 
+// const person1 = {
+//     name: "Krish",
+//     height: 1.7, //metres
+//     weight: 78, //kg
+//     college: "LPU",
+//     rollNumber: 15,
+// };
+
+// //-----------De-structuring
+
+// const { weight, college } = person1;
+// console.log(": --->:", weight, college);
+
+//----------------------------------
 const person1 = {
     name: "Krish",
     height: 1.7, //metres
     weight: 78, //kg
     college: "LPU",
     rollNumber: 15,
+    marks: {
+        EVS: 42,
+        maths: 25,
+    },
 };
 
-//-----------De-structuring
+const person2 = { ...person1 };
 
-const { weight, college } = person1;
-console.log(": --->:", weight, college);
+person2.name = "Rajesh";
+
