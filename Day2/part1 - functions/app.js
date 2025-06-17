@@ -25,4 +25,4 @@ window.console.log("hello");
 //     const finalAmount = foodAmount + clothesAmount + drinksAmount;
 //     printBill(finalAmount);
 // }
-// totalBill(500,200,100);
+// totalBill(500,200,110);
