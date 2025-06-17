@@ -15,7 +15,7 @@
 // console.log(cse75);
 
 const cse018 = {
-    name: "Krish",
+    name: "Krish Thapa",
     address: "Jalandhar, PB",
     bloodGroup: "B+",
 };
