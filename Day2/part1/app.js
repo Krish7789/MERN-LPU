@@ -5,7 +5,7 @@ const printBill = () => {
     console.log("------------");
 };
 
-cosnt calculateBillAmountForFood = (price) => {
+const calculateBillAmountForFood = (price) => {
     return price * 1.05;
 };
 
@@ -17,3 +17,8 @@ const calculateBillAmountForFood = (price) => {
     return price * 1.2;
 };
 
+const generateBill = (food, clothes, drinks) => {
+    const foodAmount = calculateBillAmountForFood(food);
+    const clothesAmount = calculateBillAmountForClothes(clothes);
+    const drinksAmount - calculateBillAmountForDrinks(drinks);
+}
