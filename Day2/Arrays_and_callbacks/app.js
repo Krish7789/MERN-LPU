@@ -46,8 +46,34 @@
 //     console.log("Absent");
 // }
 
-const arr = {
-    { name: "Likhilesh", city: "Delhi" },
-    { name: "Abhinav", city: "Kanpur"},
-    {name: "Sumedh", city: "Mumbai"},
+// const arr = [
+//     {name: "Likhilesh", city: "Delhi"},
+//     {name: "Abhinav", city: "Kanpur"},
+//     {name: "Sumedh", city: "Mumbai"},
+// ];
+
+// const myFunc = (a) => {
+//     if(a.name === "Abhinav") return true;
+//     return false;
+// };
+
+// const ans = arr.find(myFunc);
+
+// console.log(ans);
+
+const arr = [
+    {name: "Likhilesh", city: "Delhi", score: 33},
+    {name: "Abhinav", city: "Kanpur", score: 24},
+    {name: "Sumedh", city: "Mumbai", score: 42},
+];
+
+const myFunc = (elem) => {
+    if(elem.score < 25){
+        return { ...elem, remark: "fail" };
+    }else{
+        return { ...elem, remark: "pass"};
+    }
 };
+
+const resArr = arr.map(myFunc);
+console.log("resArr: ",resArr);
