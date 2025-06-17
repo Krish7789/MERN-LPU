@@ -25,7 +25,7 @@ const studentName = cse018.name;
 console.log("studentName:", studentName);
 
 // UPDATE THE VALUE OF PROPERTY
-cse018.bloodGroup = "A+";
+cse018.bloodGroup = "A-";
 
 //ADD A KEY-VALUE PAIR
 cse018.college = "LPU";
