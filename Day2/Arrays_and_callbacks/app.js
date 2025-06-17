@@ -25,10 +25,29 @@
 // console.log(arr);
 
 
- const arr = ["tata", "mahindra", "suzuki", "hyundai"];
+//  const arr = ["tata", "mahindra", "suzuki", "hyundai"];
 
- arr.splice(1, 2,"kia", "byd", "honda"); // removing and adding elements
- arr.splice(1, 1); // removing new elements
- arr.splice(1, 0, "johndeer"); // adding new elements
+//  arr.splice(1, 2,"kia", "byd", "honda"); // removing and adding elements
+//  arr.splice(1, 1); // removing new elements
+//  arr.splice(1, 0, "johndeer"); // adding new elements
 
- console.log(arr);
+//  console.log(arr);
+
+// const arr = ["ab", "xy", "mn", "ab", "pq"];
+// indexOf("ab") --> 0
+// lastIndexOf("ab") --> 3
+// indexOf("xy") --> 1
+
+// includes("xy") --> true
+
+// if(arr.indexOf("ab") == -1){
+//     console.log("Present");
+// }else{
+//     console.log("Absent");
+// }
+
+const arr = {
+    { name: "Likhilesh", city: "Delhi" },
+    { name: "Abhinav", city: "Kanpur"},
+    {name: "Sumedh", city: "Mumbai"},
+};
